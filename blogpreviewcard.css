@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2cb4b;
+    font-family: Arial, sans-serif;
+}
+.card {
+    width: 300px;
+    height: 410px;
+    background: white;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    box-shadow: 10px 10px 0 black;
+    overflow: hidden;
+}
+.card img {
+    margin: 15px 15px 15px 12px;
+    width: 92%;
+    height: 160px;
+    border-radius: 10px;
+}
+.salam {
+    display: inline-block;
+    background: #f2cb4b;
+    color: black;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin: 15px 20px 5px;
+    font-weight: bold;
+}
+.published {
+    margin: 10px 20px;
+    font-size: 12px;
+    color: black;
+}
+.title {
+    margin: 0 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.long {
+    margin: 10px 20px;
+    color: gray;
+    font-size: 14px;
+}
+.author {
+    display: flex;
+    align-items: center;
+    margin: 15px 20px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+.author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
