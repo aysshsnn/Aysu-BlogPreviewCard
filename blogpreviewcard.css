@@ -9,12 +9,11 @@ body {
 }
 .card {
     width: 300px;
-    height: 410px;
+    height: auto;      
     background: white;
     border-radius: 20px;
     padding-bottom: 30px;
     box-shadow: 10px 10px 0 black;
-    overflow: hidden;
 }
 .card img {
     margin: 15px 15px 15px 12px;
